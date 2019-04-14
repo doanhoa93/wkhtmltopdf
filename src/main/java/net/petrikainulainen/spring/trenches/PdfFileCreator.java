@@ -38,7 +38,7 @@ class PdfFileCreator {
         requireNotEmpty(sourceHtmlUrl, "Source HTML url cannot be empty");
 
         List<String> pdfCommand = Arrays.asList(
-                "wkhtmltopdf",
+                "/app/bin/wkhtmltopdf",
                 "--margin-left",
                 "0mm",
                 "--margin-right",
